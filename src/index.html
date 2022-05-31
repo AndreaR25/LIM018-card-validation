@@ -6,8 +6,33 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header></header>
-    <main></main>
+
+    <header>SerieHolic</header>
+    <main>Escoja las apps que desee pagar este mes:</main>
+
+    <form> 
+      <input type="checkbox" id="app1" vale="netflix">
+      <label>S/. 15.00</label><br>
+      <input type="checkbox" id="app2" vale="disney">
+      <label>S/. 10.00</label><br>
+      <input type="checkbox" id="app3" vale="amazonprime">
+      <label>S/. 10.00</label><br>
+      <input type="checkbox" id="app4" vale="youtube">
+      <label>S/. 10.00</label>
+
+    </form>
+
+    <section>
+     <form>
+
+      <input type="text" placeholder="Numero de tarjeta" id="creditNumber" required minlength="10" maxlength="18" size="20"/><br>
+      <input type="text" placeholder="CVV" id="cvv"><br>
+      <input type="text" placeholder="MM/DD" id="mmdd"><br>
+      <button type ="button" id="buttonCredit" > Realizar pagos</button>
+    
+
+     </form>
+    </section>
     <footer></footer>
     <script src="index.js" type="module"></script>
   </body>
